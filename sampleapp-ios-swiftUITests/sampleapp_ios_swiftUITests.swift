@@ -1,5 +1,7 @@
 
 import XCTest
+import AVFoundation
+import Foundation
 
 class sampleapp_ios_swiftUITests: XCTestCase {
     let app = XCUIApplication()
@@ -7,6 +9,10 @@ class sampleapp_ios_swiftUITests: XCTestCase {
         super.setUp()
         // In UI tests it is usually best to stop immediately when a failure occurs.
         continueAfterFailure = false
+        // to play sound
+        let speechSynthesizer = AVSpeechSynthesizer()
+        let utterance = AVSpeechUtterance(string: "This is an App Center audio test with real device.")
+        speechSynthesizer.speak(utterance)
         app.launch()
     }
 
