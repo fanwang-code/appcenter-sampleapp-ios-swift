@@ -515,14 +515,17 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 552E9B1CAA5E604F5301907D /* Pods-sampleapp-ios-swiftUITests.debug.xcconfig */;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = CZ53Q653EJ;
 				INFOPLIST_FILE = "sampleapp-ios-swiftUITests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "sampleapp-ios-swiftUITests";
-				"PRODUCT_BUNDLE_IDENTIFIER[sdk=iphoneos*]" = com.microsoft.appcenter.sampleapp.swift;
+				"PRODUCT_BUNDLE_IDENTIFIER[sdk=iphoneos*]" = "sampleapp-ios-swiftUITests-iOS";
 				"PRODUCT_BUNDLE_IDENTIFIER[sdk=macosx*]" = "sampleapp-ios-swiftUITests-macOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Off;
 				SWIFT_VERSION = 5.0;
 				TEST_TARGET_NAME = "sampleapp-ios-swift";
@@ -533,14 +536,17 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 07D8DC3DFAD6FFDFFD74D804 /* Pods-sampleapp-ios-swiftUITests.release.xcconfig */;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = CZ53Q653EJ;
 				INFOPLIST_FILE = "sampleapp-ios-swiftUITests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "sampleapp-ios-swiftUITests";
-				"PRODUCT_BUNDLE_IDENTIFIER[sdk=iphoneos*]" = com.microsoft.appcenter.sampleapp.swift;
+				"PRODUCT_BUNDLE_IDENTIFIER[sdk=iphoneos*]" = "sampleapp-ios-swiftUITests-iOS";
 				"PRODUCT_BUNDLE_IDENTIFIER[sdk=macosx*]" = "sampleapp-ios-swiftUITests-macOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Off;
 				SWIFT_VERSION = 5.0;
 				TEST_TARGET_NAME = "sampleapp-ios-swift";
