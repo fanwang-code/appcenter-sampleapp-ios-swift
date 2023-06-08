@@ -519,7 +519,7 @@
 				INFOPLIST_FILE = "sampleapp-ios-swiftUITests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "sampleapp-ios-swiftUITests";
-				"PRODUCT_BUNDLE_IDENTIFIER[sdk=iphoneos*]" = "sampleapp-ios-swiftUITests-iOS";
+				"PRODUCT_BUNDLE_IDENTIFIER[sdk=iphoneos*]" = com.microsoft.appcenter.sampleapp.swift;
 				"PRODUCT_BUNDLE_IDENTIFIER[sdk=macosx*]" = "sampleapp-ios-swiftUITests-macOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
@@ -537,7 +537,7 @@
 				INFOPLIST_FILE = "sampleapp-ios-swiftUITests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "sampleapp-ios-swiftUITests";
-				"PRODUCT_BUNDLE_IDENTIFIER[sdk=iphoneos*]" = "sampleapp-ios-swiftUITests-iOS";
+				"PRODUCT_BUNDLE_IDENTIFIER[sdk=iphoneos*]" = com.microsoft.appcenter.sampleapp.swift;
 				"PRODUCT_BUNDLE_IDENTIFIER[sdk=macosx*]" = "sampleapp-ios-swiftUITests-macOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
